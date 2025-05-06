@@ -24,7 +24,7 @@ export default function Explore() {
   return (
     <div
       className="briefDetails"
-      style={{ margin: auto, backgroundColor: "#f0f0f0" }}
+      style={{ margin: "auto", backgroundColor: "#f0f0f0" }}
     >
       <div className="block1">
         <h2>Available Tasks</h2>
