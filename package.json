@@ -1,0 +1,29 @@
+{
+  "name": "fdfed",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "start": "npm run backend",
+    "frontend": "npm start --prefix frontend",
+    "build": "npm run build --prefix frontend",
+    "backend": "npm start --prefix backend"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
