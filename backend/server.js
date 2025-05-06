@@ -38,6 +38,8 @@ app.use(express.static(path.join(__dirname, "public")));
 
 /* third party middleware */
 
+//cors setup configuration
+
 app.options("*", (req, res) => {
   // res.header(
   //   "Access-Control-Allow-Origin",
