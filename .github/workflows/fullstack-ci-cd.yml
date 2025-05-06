@@ -29,10 +29,6 @@ jobs:
         env:
           STRIPE_SECRET_KEY: ${{ secrets.STRIPE_SECRET_KEY }}
 
-      - name: Deploy to Render (optional)
-        if: github.event_name == 'push'
-        run: curl -X POST ${{ secrets.RENDER_DEPLOY_HOOK }}
-
   frontend-deploy:
     name: Frontend CI/CD
     runs-on: ubuntu-latest
