@@ -22,7 +22,10 @@ export default function Explore() {
   }, [fUser]);
 
   return (
-    <div className="briefDetails" style={{ zIndex: 1000 }}>
+    <div
+      className="briefDetails"
+      style={{ margin: auto, backgroundColor: "#f0f0f0" }}
+    >
       <div className="block1">
         <h2>Available Tasks</h2>
         {tasks.length ? (
